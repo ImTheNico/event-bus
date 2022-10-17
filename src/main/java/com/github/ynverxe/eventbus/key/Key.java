@@ -1,4 +1,4 @@
-package com.github.imthenico.eventbus.key;
+package com.github.ynverxe.eventbus.key;
 
 import java.util.UUID;
 import java.util.Objects;

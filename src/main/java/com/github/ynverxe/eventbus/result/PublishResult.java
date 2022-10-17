@@ -1,4 +1,4 @@
-package com.github.imthenico.eventbus.result;
+package com.github.ynverxe.eventbus.result;
 
 public class PublishResult {
     private final Throwable error;

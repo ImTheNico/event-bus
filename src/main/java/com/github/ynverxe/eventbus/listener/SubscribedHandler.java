@@ -1,8 +1,8 @@
-package com.github.imthenico.eventbus.listener;
+package com.github.ynverxe.eventbus.listener;
 
+import com.github.ynverxe.eventbus.key.Key;
+import com.github.ynverxe.eventbus.priority.Priority;
 import org.jetbrains.annotations.NotNull;
-import com.github.imthenico.eventbus.priority.Priority;
-import com.github.imthenico.eventbus.key.Key;
 
 public class SubscribedHandler<E> implements Comparable<SubscribedHandler<E>> {
     private final Key key;

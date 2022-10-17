@@ -1,3 +1,3 @@
-package com.github.imthenico.eventbus.listener;
+package com.github.ynverxe.eventbus.listener;
 
 public interface ListenerClass {}

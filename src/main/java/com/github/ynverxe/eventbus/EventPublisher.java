@@ -1,7 +1,7 @@
-package com.github.imthenico.eventbus;
+package com.github.ynverxe.eventbus;
 
 import java.util.concurrent.CompletableFuture;
-import com.github.imthenico.eventbus.result.PublishResult;
+import com.github.ynverxe.eventbus.result.PublishResult;
 import org.jetbrains.annotations.NotNull;
 
 public interface EventPublisher<E> {

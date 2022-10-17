@@ -1,12 +1,13 @@
-package com.github.imthenico.eventbus;
+package com.github.ynverxe.eventbus;
 
-import com.github.imthenico.eventbus.result.PublishResult;
+import com.github.ynverxe.eventbus.result.PublishResult;
 import java.util.Map;
+
+import com.github.ynverxe.eventbus.priority.Priority;
 import org.jetbrains.annotations.Nullable;
-import com.github.imthenico.eventbus.priority.Priority;
-import com.github.imthenico.eventbus.listener.EventHandler;
+import com.github.ynverxe.eventbus.listener.EventHandler;
 import org.jetbrains.annotations.NotNull;
-import com.github.imthenico.eventbus.key.Key;
+import com.github.ynverxe.eventbus.key.Key;
 
 public interface EventSubscriber<E> {
 

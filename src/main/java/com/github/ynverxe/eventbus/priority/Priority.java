@@ -1,4 +1,4 @@
-package com.github.imthenico.eventbus.priority;
+package com.github.ynverxe.eventbus.priority;
 
 import org.jetbrains.annotations.NotNull;
 

@@ -1,10 +1,10 @@
-package com.github.imthenico.eventbus;
+package com.github.ynverxe.eventbus;
 
+import com.github.ynverxe.eventbus.key.Key;
+import com.github.ynverxe.eventbus.listener.EventHandler;
+import com.github.ynverxe.eventbus.priority.Priority;
 import org.jetbrains.annotations.NotNull;
 import java.util.Objects;
-import com.github.imthenico.eventbus.priority.Priority;
-import com.github.imthenico.eventbus.listener.EventHandler;
-import com.github.imthenico.eventbus.key.Key;
 
 public class Subscription<E> implements Comparable<Subscription<E>> {
 

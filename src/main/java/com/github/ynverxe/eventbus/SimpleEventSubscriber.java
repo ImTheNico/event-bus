@@ -1,19 +1,20 @@
-package com.github.imthenico.eventbus;
+package com.github.ynverxe.eventbus;
 
 import java.util.Arrays;
-import java.util.ArrayList;
-import com.github.imthenico.eventbus.result.PublishResult;
+
+import com.github.ynverxe.eventbus.result.PublishResult;
 import java.util.Collections;
+
+import com.github.ynverxe.eventbus.key.Key;
+import com.github.ynverxe.eventbus.listener.SubscribedHandler;
+import com.github.ynverxe.eventbus.priority.Priority;
 import org.jetbrains.annotations.Nullable;
-import com.github.imthenico.eventbus.priority.Priority;
-import com.github.imthenico.eventbus.listener.EventHandler;
+import com.github.ynverxe.eventbus.listener.EventHandler;
 import org.jetbrains.annotations.NotNull;
 import java.util.Objects;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ConcurrentHashMap;
-import com.github.imthenico.eventbus.listener.SubscribedHandler;
 import java.util.List;
-import com.github.imthenico.eventbus.key.Key;
 import java.util.Map;
 
 public class SimpleEventSubscriber<E> implements EventSubscriber<E> {

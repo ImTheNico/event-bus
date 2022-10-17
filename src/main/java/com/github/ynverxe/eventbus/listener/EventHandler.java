@@ -1,4 +1,4 @@
-package com.github.imthenico.eventbus.listener;
+package com.github.ynverxe.eventbus.listener;
 
 import org.jetbrains.annotations.NotNull;
 
