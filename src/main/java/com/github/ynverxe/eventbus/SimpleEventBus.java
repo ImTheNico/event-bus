@@ -114,8 +114,8 @@ public class SimpleEventBus<E> implements EventBus<E> {
                 Class parameterType = parameters[0].getType();
                 Class handlerTarget = registration.value();
 
-                if (!parameterType.equals(handlerTarget)) {
-                    throw new IllegalStateException(method.getName() + " parameter type is different than the value of @Registration");
+                if (!parameterType.isAssignableFrom(handlerTarget)) {
+                    throw new IllegalStateException(method.getName() + " parameter type is not of the specified type of @Registration");
                 }
 
                 Key methodKey = key.namespace(method.getName());
