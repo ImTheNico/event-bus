@@ -54,7 +54,7 @@ public class SimpleEventBus<E> implements EventBus<E> {
     
     @Override
     @SuppressWarnings("unchecked")
-    public <T extends E> @NotNull List<Subscription<T>> subscribeHandlerImpl(
+    public <T extends E> @NotNull List<Subscription<T>> subscribeEventHandler(
             @NotNull Key key, @NotNull EventHandler<T> eventHandler
      ) {
         List<Subscription<T>> subscriptions = new ArrayList<>();

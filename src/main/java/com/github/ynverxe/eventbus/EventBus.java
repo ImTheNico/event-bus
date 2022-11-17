@@ -22,7 +22,7 @@ public interface EventBus<E> extends EventPublisher<E> {
             @NotNull Priority priority
     );
 
-    <T extends E> @NotNull List<Subscription<T>> subscribeHandlerImpl(
+    <T extends E> @NotNull List<Subscription<T>> subscribeEventHandler(
              @NotNull Key key, @NotNull EventHandler<T> eventHandler
     );
     
